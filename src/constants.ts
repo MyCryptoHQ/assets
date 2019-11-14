@@ -9,10 +9,10 @@ export interface Asset {
 }
 
 export interface ParsedAsset {
-  coinCapId: string | null;
-  coinGeckoId: string | null;
-  cryptoCompareId: string | null;
-  cryptoCurrencyIconName: string | null;
+  coinCapId?: string;
+  coinGeckoId?: string;
+  cryptoCompareId?: string;
+  cryptoCurrencyIconName?: string;
 }
 
 /**
