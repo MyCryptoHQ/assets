@@ -1,0 +1,35 @@
+language: node_js
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - "$HOME/.cache"
+
+before_install:
+  - npm install -g yarn
+
+install:
+  - yarn --silent
+
+script:
+  - yarn run test
+  - yarn run codecov -f coverage/*.json
+  - yarn run lint
+  - yarn run prettier
+
+#before_deploy:
+#  - pip install --user awscli
+#
+#deploy:
+#  provider: script
+#  script: ~/.local/bin/aws s3 sync assets/assets.json s3://bucket-name --region=eu-west-1 --delete
+#  on:
+#    branch: master
