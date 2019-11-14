@@ -1,5 +1,4 @@
 import { compareTwoStrings } from 'string-similarity';
-import fromEntries from 'object.fromentries';
 import { Asset, TOKEN_ASSET_SCHEMA } from './constants';
 
 /**
@@ -25,14 +24,22 @@ export const isValidToken = (token: Asset): boolean => {
 };
 
 /**
- * Removes `null` properties from an object.
+ * Get the keys of an object as a strong typed array.
+ *
+ * @param {Object} object
+ * @return {(keyof T)[]}
+ * @template T
+ */
+export const keys = <T>(object: T): (keyof T)[] => {
+  return Object.keys(object) as (keyof T)[];
+};
+
+/**
+ * Checks if an object is empty.
  *
  * @param {object} object
- * @return {object}
+ * @return {boolean}
  */
-export const removeEmpty = (object: object): object =>
-  fromEntries(
-    Object.entries(object)
-      .filter(([key, value]) => value !== null)
-      .map(([key, value]) => (typeof value === 'object' ? [key, removeEmpty(value)] : [key, value]))
-  );
+export const isEmpty = (object: object): boolean => {
+  return Object.keys(object).length === 0;
+};
