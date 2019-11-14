@@ -30,6 +30,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: ~/.local/bin/aws s3 sync assets/assets.json s3://price.mycryptoapi.com --region=us-east-1 --delete
+  script: ~/.local/bin/aws s3 sync assets s3://price.mycryptoapi.com --region=us-east-1
   on:
     branch: master
