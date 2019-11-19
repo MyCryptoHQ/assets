@@ -16,7 +16,7 @@ The `assets.json` file found in `assets/` consists of a `key -> value` object, w
 
 * `cryptoCompareId` (string)
   
-  The `Id` field used in the CryptoCompare API.
+  The `Symbol` field used in the CryptoCompare API.
   
 * `cryptoCurrencyIconName` (string)
 
