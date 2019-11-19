@@ -11,6 +11,7 @@ interface CryptoCompareData {
       CoinName: string;
       SmartContractAddress: string;
       BuiltOn: string;
+      Symbol: string;
     };
   };
 }
@@ -47,7 +48,7 @@ export const matchCryptoCompareId = async (
     if (item && item.BuiltOn === '7605') {
       return {
         cache: data,
-        data: item.Id
+        data: item.Symbol
       };
     }
   }
@@ -56,7 +57,7 @@ export const matchCryptoCompareId = async (
   if (data.Data[asset.symbol] && isSimilar(data.Data[asset.symbol].CoinName, asset.name)) {
     return {
       cache: data,
-      data: data.Data[asset.symbol].Id
+      data: data.Data[asset.symbol].Symbol
     };
   }
 
