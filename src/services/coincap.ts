@@ -2,7 +2,7 @@ import { Asset } from '../constants';
 import { CachedResponse, getInitialCache, withCache } from './cache';
 import { isSimilar } from '../utils';
 
-const COINCAP_API_ENDPOINT = 'https://api.coincap.io/v2/assets';
+const COINCAP_API_ENDPOINT = 'https://api.coincap.io/v2/assets?limit=2000';
 
 interface CoinCapCoin {
   id: string;
