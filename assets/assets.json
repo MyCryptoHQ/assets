@@ -2058,7 +2058,9 @@
     "cryptoCompareId": "LIKE"
   },
   "c0ae47d5-f020-5ea8-9886-522d3af70845": {
-    "cryptoCompareId": "LINK"
+    "cryptoCompareId": "LINK",
+    "coinGeckoId": "chainlink",
+    "coinCapId": "chainlink"
   },
   "da4dc0a1-a590-581f-b6ad-42640ee02d4e": {
     "cryptoCompareId": "LNK"
@@ -3035,7 +3037,9 @@
     "cryptoCompareId": "RVT"
   },
   "53306efd-fb16-5e9a-b6d0-fc0e9713da40": {
-    "cryptoCompareId": "DAI"
+    "cryptoCompareId": "DAI",
+    "coinCapId": "dai",
+    "coinGeckoId": "dai"
   },
   "2fdbfe5d-5e3a-5fe0-bcaa-42810867d1e6": {
     "cryptoCompareId": "SALT"
