@@ -1,5 +1,8 @@
 # MyCrypto Assets
 
+[![codecov](https://codecov.io/gh/MyCryptoHQ/assets/branch/master/graph/badge.svg)](https://codecov.io/gh/MyCryptoHQ/assets)
+[![Travis](https://travis-ci.com/MyCryptoHQ/assets.svg?branch=master)](https://travis-ci.com/MyCryptoHQ/assets)
+
 Asset mappings for CoinCap, CoinGecko, CryptoCompare and CryptoCurrency Icons. The `assets.json` is available through MyCrypto's API [here](https://price.mycryptoapi.com/).
 
 ## `assets.json`
