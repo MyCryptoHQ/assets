@@ -1,5 +1,5 @@
 import { compareTwoStrings } from 'string-similarity';
-import { Asset, TOKEN_ASSET_SCHEMA } from './constants';
+import { Asset, ASSET_SCHEMA, ParsedAsset, TOKEN_ASSET_SCHEMA } from './constants';
 
 /**
  * Checks whether two strings are similar to each other, based on the Sørensen–Dice coefficient. Returns `true` if the
@@ -21,6 +21,16 @@ export const isSimilar = (first: string, second: string): boolean => {
  */
 export const isValidToken = (token: Asset): boolean => {
   return !TOKEN_ASSET_SCHEMA.validate(token).error;
+};
+
+/**
+ * Checks if the asset is a valid (parsed) asset according to the validation schema.
+ *
+ * @param {ParsedAsset} asset
+ * @return {boolean}
+ */
+export const isValidAsset = (asset: ParsedAsset): boolean => {
+  return !ASSET_SCHEMA.validate(asset).error;
 };
 
 /**
