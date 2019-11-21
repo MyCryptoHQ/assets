@@ -1,6 +1,6 @@
 # MyCrypto Assets
 
-Asset mappings for CoinCap, CoinGecko, CryptoCompare and CryptoCurrency Icons. The `assets.json` will be deployed and available through MyCrypto's API.
+Asset mappings for CoinCap, CoinGecko, CryptoCompare and CryptoCurrency Icons. The `assets.json` is available through MyCrypto's API [here](https://price.mycryptoapi.com/).
 
 ## `assets.json`
 
