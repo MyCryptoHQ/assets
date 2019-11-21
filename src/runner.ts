@@ -1,5 +1,5 @@
 import Listr from 'listr';
-import { getAssets, writeToDisk } from './assets';
+import { getAssets, getParsedAssets, writeToDisk } from './assets';
 import { Asset, ParsedAsset } from './constants';
 import {
   matchCoinCapId,
@@ -22,11 +22,15 @@ const ASSET_MATCHERS: Required<
  * Get all matched IDs for an asset. If an ID could not be found for an asset, the ID field is left out.
  *
  * @param {Asset} asset
+ * @param {ParsedAsset | null} parsedAsset
  * @return {Promise<ParsedAsset>}
  */
-export const getIds = async (asset: Asset): Promise<ParsedAsset> => {
+export const getIds = async (
+  asset: Asset,
+  parsedAsset: ParsedAsset | null
+): Promise<ParsedAsset> => {
   return keys(ASSET_MATCHERS).reduce<Promise<ParsedAsset>>(async (promise, key) => {
-    const id = await ASSET_MATCHERS[key](asset);
+    const id = (await ASSET_MATCHERS[key](asset)) || (parsedAsset && parsedAsset[key]);
     if (id) {
       return {
         ...(await promise),
@@ -40,13 +44,9 @@ export const getIds = async (asset: Asset): Promise<ParsedAsset> => {
   }, Promise.resolve({}));
 };
 
-export interface ParsedAssetsObject {
-  [key: string]: ParsedAsset;
-}
-
 interface ApplicationContext {
   assets: Asset[];
-  parsedAssets: ParsedAssetsObject;
+  parsedAssets: Record<string, ParsedAsset>;
 }
 
 /**
@@ -58,15 +58,17 @@ export const run = async () => {
       title: 'Fetching assets',
       task: async context => {
         context.assets = await getAssets();
+        context.parsedAssets = await getParsedAssets();
       }
     },
     {
       title: 'Matching assets with services',
       task: async context => {
-        context.parsedAssets = await context.assets.reduce<Promise<ParsedAssetsObject>>(
-          async (promise, asset, index) => {
+        context.parsedAssets = await context.assets.reduce<Promise<Record<string, ParsedAsset>>>(
+          async (promise, asset) => {
             const previous = await promise;
-            const ids = await getIds(asset);
+            const parsedAsset = previous[asset.uuid];
+            const ids = await getIds(asset, parsedAsset);
 
             if (!isEmpty(ids)) {
               return {
@@ -79,7 +81,7 @@ export const run = async () => {
               ...previous
             };
           },
-          Promise.resolve({})
+          Promise.resolve(context.parsedAssets)
         );
       }
     },

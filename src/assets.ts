@@ -1,8 +1,8 @@
 import { dirname, join } from 'path';
 import { promises as fs } from 'fs';
 import execa from 'execa';
-import { Asset, BASE_ASSETS, OUTPUT_PATH } from './constants';
-import { isValidToken } from './utils';
+import { Asset, BASE_ASSETS, OUTPUT_PATH, ParsedAsset } from './constants';
+import { isValidAsset, isValidToken } from './utils';
 
 const TOKEN_FILE_PATH = join(__dirname, '../tokens/eth.json');
 
@@ -41,6 +41,24 @@ const fetchEthereumTokens = async (): Promise<Asset[]> => {
  */
 export const getAssets = async (): Promise<Asset[]> => {
   return [...BASE_ASSETS, ...(await fetchEthereumTokens())];
+};
+
+/**
+ * Get parsed assets from the disk. If an asset is invalid, it is skipped.
+ *
+ * @return {Promise<Record<string, ParsedAsset>>}
+ */
+export const getParsedAssets = async (): Promise<Record<string, ParsedAsset>> => {
+  const json = await fs.readFile(OUTPUT_PATH, 'utf8');
+  const assets = JSON.parse(json) as Record<string, ParsedAsset>;
+
+  return Object.keys(assets).reduce<Record<string, ParsedAsset>>((object, key) => {
+    const asset = assets[key];
+    if (isValidAsset(asset)) {
+      object[key] = asset;
+    }
+    return object;
+  }, {});
 };
 
 /**

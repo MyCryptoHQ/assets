@@ -1889,7 +1889,7 @@
     "cryptoCurrencyIconName": "itc"
   },
   "6410d4f6-959e-5071-9b28-5b2c35c61c38": {
-    "cryptoCompareId": "ITT"
+    "cryptoCompareId": "ITF"
   },
   "f7f27010-1968-5fb4-a34e-d7c6ccb415ee": {
     "cryptoCompareId": "IVY"
@@ -2058,9 +2058,9 @@
     "cryptoCompareId": "LIKE"
   },
   "c0ae47d5-f020-5ea8-9886-522d3af70845": {
-    "cryptoCompareId": "LINK",
+    "coinCapId": "chainlink",
     "coinGeckoId": "chainlink",
-    "coinCapId": "chainlink"
+    "cryptoCompareId": "LINK"
   },
   "da4dc0a1-a590-581f-b6ad-42640ee02d4e": {
     "cryptoCompareId": "LNK"
@@ -3037,9 +3037,9 @@
     "cryptoCompareId": "RVT"
   },
   "53306efd-fb16-5e9a-b6d0-fc0e9713da40": {
-    "cryptoCompareId": "DAI",
     "coinCapId": "dai",
-    "coinGeckoId": "dai"
+    "coinGeckoId": "dai",
+    "cryptoCompareId": "DAI"
   },
   "2fdbfe5d-5e3a-5fe0-bcaa-42810867d1e6": {
     "cryptoCompareId": "SALT"
@@ -3979,5 +3979,11 @@
   },
   "054843cc-b3b7-5724-8ca6-bc4bbb5f52bc": {
     "cryptoCompareId": "ZXC"
+  },
+  "e1f698bf-cb85-5405-b563-14774af14bf1": {
+    "cryptoCompareId": "MCD"
+  },
+  "10b38465-640c-509a-b047-8d9671a245ae": {
+    "coinGeckoId": "vechain-old-erc20"
   }
 }
