@@ -1,4 +1,5 @@
 import { matchCoinGeckoId } from './coingecko';
+import { matchCoinGeckoId as matchCoinGeckoIdWithCache } from './index';
 import { getInitialCache } from './cache';
 
 const CACHE_DATA = [{ id: 'ethereum', symbol: 'eth', name: 'Ethereum' }];
@@ -56,5 +57,15 @@ describe('matchCoinGeckoId', () => {
       },
       data: null
     });
+  });
+
+  it('works with a cache', async () => {
+    const asset = {
+      name: 'Ethereum',
+      symbol: 'ETH',
+      uuid: '356a192b-7913-504c-9457-4d18c28d46e6'
+    };
+
+    await expect(matchCoinGeckoIdWithCache(asset)).resolves.toBe('ethereum');
   });
 });

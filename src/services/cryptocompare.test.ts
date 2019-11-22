@@ -1,4 +1,5 @@
 import { matchCryptoCompareId } from './cryptocompare';
+import { matchCryptoCompareId as matchCryptoCompareIdWithCache } from './index';
 import { getInitialCache } from './cache';
 
 const CACHE_DATA = {
@@ -113,5 +114,15 @@ describe('matchCryptoCompareId', () => {
       },
       data: null
     });
+  });
+
+  it('works with a cache', async () => {
+    const asset = {
+      name: 'Ethereum',
+      symbol: 'ETH',
+      uuid: '356a192b-7913-504c-9457-4d18c28d46e6'
+    };
+
+    await expect(matchCryptoCompareIdWithCache(asset)).resolves.toBe('ETH');
   });
 });
