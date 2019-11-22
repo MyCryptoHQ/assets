@@ -6,6 +6,7 @@ export interface Asset {
   symbol: string;
   uuid: string;
   address?: string;
+  decimal?: string;
 }
 
 export interface ParsedAsset {

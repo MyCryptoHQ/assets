@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`run runs the application 1`] = `
+Array [
+  Object {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "uuid": "356a192b-7913-504c-9457-4d18c28d46e6",
+  },
+  Object {
+    "name": "Ethereum Classic",
+    "symbol": "ETC",
+    "uuid": "6c1e671f-9af5-546d-9c1a-52067bdf0e53",
+  },
+]
+`;
+
+exports[`run runs the application 2`] = `
+Object {
+  "356a192b-7913-504c-9457-4d18c28d46e6": Object {
+    "coinCapId": "ethereum",
+    "coinGeckoId": "ethereum",
+    "cryptoCompareId": "ETH",
+    "cryptoCurrencyIconName": "eth",
+  },
+}
+`;

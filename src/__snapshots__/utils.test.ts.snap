@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`keys returns the key of an object 1`] = `
+Array [
+  "coinCapId",
+  "coinGeckoId",
+  "cryptoCompareId",
+  "cryptoCurrencyIconName",
+]
+`;

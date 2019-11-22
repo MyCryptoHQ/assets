@@ -10,7 +10,7 @@ interface CoinCapCoin {
   name: string;
 }
 
-interface CoinCapData {
+export interface CoinCapData {
   coins: CoinCapCoin[];
 }
 

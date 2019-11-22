@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchCryptoCompareId initializes the cache 1`] = `
+Object {
+  "ETH": Object {
+    "CoinName": "Ethereum",
+    "Id": "7605",
+    "Name": "ETH",
+    "Symbol": "ETH",
+  },
+  "FOO": Object {
+    "BuiltOn": "1",
+    "CoinName": "Foo Token",
+    "Id": "1337",
+    "Name": "Foo",
+    "SmartContractAddress": "0x0000000000000000000000000000000000000000",
+    "Symbol": "FOO",
+  },
+  "GNT": Object {
+    "BuiltOn": "7605",
+    "CoinName": "Golem Network Token",
+    "Id": "33022",
+    "Name": "GNT",
+    "SmartContractAddress": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "Symbol": "GNT",
+  },
+}
+`;
