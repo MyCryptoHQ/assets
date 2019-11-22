@@ -21,7 +21,7 @@ interface CoinGeckoData {
  * @param {Asset} asset
  * @return {Promise<CachedResponse<CoinGeckoData, string | null>>}
  */
-export const matchCoinkGeckoId = async (
+export const matchCoinGeckoId = async (
   cache: Partial<CoinGeckoData>,
   asset: Asset
 ): Promise<CachedResponse<CoinGeckoData, string | null>> => {
@@ -44,4 +44,4 @@ export const matchCoinkGeckoId = async (
   };
 };
 
-export default withCache<CoinGeckoData, typeof matchCoinkGeckoId, string | null>(matchCoinkGeckoId);
+export default withCache<CoinGeckoData, typeof matchCoinGeckoId, string | null>(matchCoinGeckoId);

@@ -32,17 +32,12 @@ export const matchCryptoCompareId = async (
     data = await getInitialCache<CryptoCompareData>(CRYPTOCOMPARE_API_ENDPOINT);
   }
 
-  if (!data.Data) {
-    return {
-      cache: data,
-      data: null
-    };
-  }
-
   // Search based on contract address
   if (asset.address) {
-    const item = Object.values(data.Data).find(
-      token => token.SmartContractAddress.toLowerCase() === asset.address!.toLowerCase()
+    const item = Object.values(data.Data!).find(
+      token =>
+        (token.SmartContractAddress && token.SmartContractAddress.toLowerCase()) ===
+        asset.address!.toLowerCase()
     );
 
     if (item && item.BuiltOn === '7605') {
@@ -54,10 +49,10 @@ export const matchCryptoCompareId = async (
   }
 
   // Search based on name and symbol
-  if (data.Data[asset.symbol] && isSimilar(data.Data[asset.symbol].CoinName, asset.name)) {
+  if (data.Data![asset.symbol] && isSimilar(data.Data![asset.symbol].CoinName, asset.name)) {
     return {
       cache: data,
-      data: data.Data[asset.symbol].Symbol
+      data: data.Data![asset.symbol].Symbol
     };
   }
 

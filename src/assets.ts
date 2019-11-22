@@ -2,9 +2,49 @@ import { dirname, join } from 'path';
 import { promises as fs } from 'fs';
 import execa from 'execa';
 import { Asset, BASE_ASSETS, OUTPUT_PATH, ParsedAsset } from './constants';
-import { isValidAsset, isValidToken } from './utils';
+import { isValidAsset, isValidToken, keys } from './utils';
+import {
+  matchCoinCapId,
+  matchCoinGeckoId,
+  matchCryptoCompareId,
+  matchCryptoCurrencyIcon
+} from './services';
 
 const TOKEN_FILE_PATH = join(__dirname, '../tokens/eth.json');
+const ASSET_MATCHERS: Required<
+  { [key in keyof ParsedAsset]: (asset: Asset) => Promise<string | null> | string | null }
+> = {
+  coinCapId: matchCoinCapId,
+  coinGeckoId: matchCoinGeckoId,
+  cryptoCompareId: matchCryptoCompareId,
+  cryptoCurrencyIconName: matchCryptoCurrencyIcon
+};
+
+/**
+ * Get all matched IDs for an asset. If an ID could not be found for an asset, the ID field is left out.
+ *
+ * @param {Asset} asset
+ * @param {ParsedAsset | null} parsedAsset
+ * @return {Promise<ParsedAsset>}
+ */
+export const getIds = async (
+  asset: Asset,
+  parsedAsset: ParsedAsset | null
+): Promise<ParsedAsset> => {
+  return keys(ASSET_MATCHERS).reduce<Promise<ParsedAsset>>(async (promise, key) => {
+    const id = (await ASSET_MATCHERS[key](asset)) || (parsedAsset && parsedAsset[key]);
+    if (id) {
+      return {
+        ...(await promise),
+        [key]: id
+      };
+    }
+
+    return {
+      ...(await promise)
+    };
+  }, Promise.resolve({}));
+};
 
 /**
  * Parse and validate raw asset JSON. Throws an error if the JSON is invalid.
@@ -12,7 +52,7 @@ const TOKEN_FILE_PATH = join(__dirname, '../tokens/eth.json');
  * @param {string} json
  * @return {Promise<Asset>}
  */
-const parseTokensJson = async (json: string): Promise<Asset[]> => {
+export const parseTokensJson = async (json: string): Promise<Asset[]> => {
   const tokens: Asset[] = JSON.parse(json);
 
   if (tokens.some(token => !isValidToken(token))) {
@@ -27,7 +67,7 @@ const parseTokensJson = async (json: string): Promise<Asset[]> => {
  *
  * @return {Promise<Asset[]>}
  */
-const fetchEthereumTokens = async (): Promise<Asset[]> => {
+export const fetchEthereumTokens = async (): Promise<Asset[]> => {
   await execa('parse-eth-tokens', ['-o', 'tokens']);
 
   const json = await fs.readFile(TOKEN_FILE_PATH, 'utf8');

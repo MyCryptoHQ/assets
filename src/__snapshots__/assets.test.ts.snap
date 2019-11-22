@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchEthereumTokens fetches Ethereum tokens from the disk 1`] = `
+Array [
+  Object {
+    "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "decimal": 18,
+    "name": "Golem",
+    "symbol": "GNT",
+    "uuid": "59a6f871-34bb-5914-86cc-b5f1307bb3b9",
+  },
+  Object {
+    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "decimal": 18,
+    "name": "MakerDAO",
+    "symbol": "MKR",
+    "uuid": "d3230312-cacb-52e6-a849-8bbf6e8142dd",
+  },
+]
+`;
+
+exports[`getAssets fetches all assets 1`] = `
+Array [
+  Object {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "uuid": "356a192b-7913-504c-9457-4d18c28d46e6",
+  },
+  Object {
+    "name": "Ethereum Classic",
+    "symbol": "ETC",
+    "uuid": "6c1e671f-9af5-546d-9c1a-52067bdf0e53",
+  },
+  Object {
+    "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "decimal": 18,
+    "name": "Golem",
+    "symbol": "GNT",
+    "uuid": "59a6f871-34bb-5914-86cc-b5f1307bb3b9",
+  },
+  Object {
+    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "decimal": 18,
+    "name": "MakerDAO",
+    "symbol": "MKR",
+    "uuid": "d3230312-cacb-52e6-a849-8bbf6e8142dd",
+  },
+]
+`;
+
+exports[`getIds gets all (available) service IDs for an asset 1`] = `
+Object {
+  "coinCapId": "golem-network-tokens",
+  "coinGeckoId": "golem",
+  "cryptoCompareId": "GNT",
+}
+`;
+
+exports[`getParsedAssets fetches all parsed assets 1`] = `
+Object {
+  "59a6f871-34bb-5914-86cc-b5f1307bb3b9": Object {
+    "coinCapId": "golem-network-tokens",
+    "coinGeckoId": "golem",
+    "cryptoCompareId": "GNT",
+    "cryptoCurrencyIconName": "gnt",
+  },
+  "d3230312-cacb-52e6-a849-8bbf6e8142dd": Object {
+    "coinCapId": "maker",
+    "coinGeckoId": "maker",
+    "cryptoCompareId": "MKR",
+    "cryptoCurrencyIconName": "mkr",
+  },
+}
+`;
+
+exports[`parseTokensJson parses a JSON string to a tokens array 1`] = `
+Array [
+  Object {
+    "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "decimal": 18,
+    "name": "Golem",
+    "symbol": "GNT",
+    "uuid": "59a6f871-34bb-5914-86cc-b5f1307bb3b9",
+  },
+  Object {
+    "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "decimal": 18,
+    "name": "MakerDAO",
+    "symbol": "MKR",
+    "uuid": "d3230312-cacb-52e6-a849-8bbf6e8142dd",
+  },
+]
+`;
+
+exports[`writeToDisk writes an object to the disk 1`] = `
+"[
+  {
+    \\"address\\": \\"0xa74476443119A942dE498590Fe1f2454d7D4aC0d\\",
+    \\"decimal\\": 18,
+    \\"name\\": \\"Golem\\",
+    \\"symbol\\": \\"GNT\\",
+    \\"uuid\\": \\"59a6f871-34bb-5914-86cc-b5f1307bb3b9\\"
+  },
+  {
+    \\"address\\": \\"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2\\",
+    \\"decimal\\": 18,
+    \\"name\\": \\"MakerDAO\\",
+    \\"symbol\\": \\"MKR\\",
+    \\"uuid\\": \\"d3230312-cacb-52e6-a849-8bbf6e8142dd\\"
+  }
+]"
+`;

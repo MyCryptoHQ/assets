@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchCoinGeckoId initializes the cache 1`] = `
+Array [
+  Object {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "symbol": "eth",
+  },
+]
+`;
