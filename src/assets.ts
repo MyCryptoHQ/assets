@@ -7,7 +7,8 @@ import {
   matchCoinCapId,
   matchCoinGeckoId,
   matchCryptoCompareId,
-  matchCryptoCurrencyIcon
+  matchCryptoCurrencyIcon,
+  matchDexAgId
 } from './services';
 
 const TOKEN_FILE_PATH = join(__dirname, '../tokens/eth.json');
@@ -17,7 +18,8 @@ const ASSET_MATCHERS: Required<
   coinCapId: matchCoinCapId,
   coinGeckoId: matchCoinGeckoId,
   cryptoCompareId: matchCryptoCompareId,
-  cryptoCurrencyIconName: matchCryptoCurrencyIcon
+  cryptoCurrencyIconName: matchCryptoCurrencyIcon,
+  dexAgId: matchDexAgId
 };
 
 /**
@@ -94,6 +96,7 @@ export const getParsedAssets = async (): Promise<Record<string, ParsedAsset>> =>
 
   return Object.keys(assets).reduce<Record<string, ParsedAsset>>((object, key) => {
     const asset = assets[key];
+    console.log(asset, isValidAsset(asset));
     if (isValidAsset(asset)) {
       object[key] = asset;
     }

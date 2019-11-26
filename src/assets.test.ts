@@ -15,7 +15,8 @@ jest.mock('./services', () => ({
   matchCoinCapId: jest.fn(async () => 'golem-network-tokens'),
   matchCoinGeckoId: jest.fn(async () => 'golem'),
   matchCryptoCompareId: jest.fn(async () => 'GNT'),
-  matchCryptoCurrencyIcon: jest.fn()
+  matchCryptoCurrencyIcon: jest.fn(),
+  matchDexAgId: jest.fn(async () => 'GNT')
 }));
 
 afterEach(() => {
@@ -140,12 +141,14 @@ describe('getParsedAssets', () => {
 
   it('removes invalid assets', async () => {
     const assets = await getParsedAssets();
+    console.log(assets);
     expect(Object.keys(assets).length).toBe(2);
     expect(Object.values(assets)).not.toContainEqual({
       coinCapId: 'ethereum',
       coinGeckoId: 'ethereum',
       cryptoCompareId: 'ETH',
       cryptoCurrencyIconName: 'eth',
+      dexAgId: 'ETH',
       invalid: 'field'
     });
   });

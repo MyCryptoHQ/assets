@@ -35,19 +35,22 @@ export const promises = {
               "coinGeckoId": "ethereum",
               "cryptoCompareId": "ETH",
               "cryptoCurrencyIconName": "eth",
+              "dexAgId": "ETH",
               "invalid": "field"
             },
             "59a6f871-34bb-5914-86cc-b5f1307bb3b9": {
               "coinCapId": "golem-network-tokens",
               "coinGeckoId": "golem",
               "cryptoCompareId": "GNT",
-              "cryptoCurrencyIconName": "gnt"
+              "cryptoCurrencyIconName": "gnt",
+              "dexAgId": "GNT"
             },
             "d3230312-cacb-52e6-a849-8bbf6e8142dd": {
               "coinCapId": "maker",
               "coinGeckoId": "maker",
               "cryptoCompareId": "MKR",
-              "cryptoCurrencyIconName": "mkr"
+              "cryptoCurrencyIconName": "mkr",
+              "dexAgId": "MKR"
             }
           }
         `;

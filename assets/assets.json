@@ -36,12 +36,6 @@
     "coinGeckoId": "300token",
     "cryptoCompareId": "300"
   },
-  "4f387b74-88e2-5a56-9664-0224ee546c6a": {
-    "coinCapId": "arcblock",
-    "coinGeckoId": "arcblock",
-    "cryptoCompareId": "ABT",
-    "cryptoCurrencyIconName": "abt"
-  },
   "b1ffe8f8-4687-5d1d-8260-47e3e3f9ce4f": {
     "coinCapId": "the-abyss",
     "coinGeckoId": "the-abyss",
@@ -93,12 +87,6 @@
   },
   "359b92e4-3d40-5a45-b648-cc56c5ce2023": {
     "cryptoCurrencyIconName": "aeur"
-  },
-  "f5212133-7c4f-5047-8c23-ea2ede62f796": {
-    "coinCapId": "singularitynet",
-    "coinGeckoId": "singularitynet",
-    "cryptoCompareId": "AGI",
-    "cryptoCurrencyIconName": "agi"
   },
   "f2d29eb1-d3f8-5d6e-81f2-9e89980ec0ca": {
     "coinGeckoId": "poly-ai"
@@ -153,11 +141,6 @@
     "coinCapId": "amlt",
     "cryptoCompareId": "AMLT"
   },
-  "432d8898-ad05-5f2b-a731-2aa7865943a4": {
-    "coinCapId": "amon",
-    "coinGeckoId": "amon",
-    "cryptoCompareId": "AMN"
-  },
   "dbaa85d0-05c4-567e-8765-02be0a1eac50": {
     "coinGeckoId": "amo",
     "cryptoCompareId": "AMO"
@@ -165,12 +148,6 @@
   "5f82a198-c58b-5fce-8973-42c818ccb05f": {
     "coinGeckoId": "ampleforth",
     "cryptoCompareId": "AMPL"
-  },
-  "7f4d2f19-9a76-5930-b63b-ac9b0afe6201": {
-    "coinCapId": "aragon",
-    "coinGeckoId": "aragon",
-    "cryptoCompareId": "ANT",
-    "cryptoCurrencyIconName": "ant"
   },
   "cbb8d161-639f-5c6f-a180-ee37d76f1a07": {
     "coinCapId": "aurora",
@@ -295,12 +272,6 @@
     "coinGeckoId": "bitasean",
     "cryptoCompareId": "BAS"
   },
-  "e34bb9ff-47be-503b-956b-30d4b3f3507b": {
-    "coinCapId": "basic-attention-token",
-    "coinGeckoId": "basic-attention-token",
-    "cryptoCompareId": "BAT",
-    "cryptoCurrencyIconName": "bat"
-  },
   "6f84925a-420c-528e-acab-ad23155f4c4d": {
     "coinCapId": "babb",
     "coinGeckoId": "babb",
@@ -358,11 +329,6 @@
     "coinCapId": "bitdegree",
     "coinGeckoId": "bitdegree",
     "cryptoCompareId": "BDG"
-  },
-  "72b20567-4de6-576d-a708-026b68f0509a": {
-    "coinCapId": "bee-token",
-    "coinGeckoId": "bee-token",
-    "cryptoCompareId": "BEE"
   },
   "856917dc-ee9f-5b5c-bcbe-a322d8ab5752": {
     "coinGeckoId": "belifex"
@@ -428,20 +394,11 @@
     "coinCapId": "bolenum",
     "cryptoCompareId": "BLNM"
   },
-  "65e92849-dc9f-541a-a548-335e10299120": {
-    "coinCapId": "bloomtoken",
-    "coinGeckoId": "bloom",
-    "cryptoCompareId": "BLT"
-  },
   "df68f095-9dd8-54ca-9d29-207010051042": {
     "cryptoCompareId": "BLUE"
   },
   "fe4613c1-680a-5d70-978f-7754c381ad96": {
     "cryptoCompareId": "BLX"
-  },
-  "688f099f-83a7-5102-b16e-7f97fe22b023": {
-    "coinCapId": "bluzelle",
-    "cryptoCompareId": "BLZ"
   },
   "9da88d30-1cac-5254-8d5c-8404668b0fa7": {
     "coinCapId": "blackmoon",
@@ -470,16 +427,6 @@
   "cd80ff45-f657-517a-b45c-98b1bb901d0b": {
     "coinCapId": "brokernekonetwork",
     "coinGeckoId": "broker-neko-network"
-  },
-  "778541d2-65e6-5c57-b083-aa3129eb91c8": {
-    "coinCapId": "bancor",
-    "cryptoCompareId": "BNT"
-  },
-  "3e2b3e48-d0f2-520c-9639-622e0bd15fab": {
-    "coinCapId": "bounty0x",
-    "coinGeckoId": "bounty0x",
-    "cryptoCompareId": "BNTY",
-    "cryptoCurrencyIconName": "bnty"
   },
   "89e35266-631d-5aad-a174-2f192741f98c": {
     "coinGeckoId": "bosagora"
@@ -583,9 +530,6 @@
     "coinGeckoId": "biotron",
     "cryptoCompareId": "BTRN"
   },
-  "3e654fac-32c4-5e4a-b4c4-186eeb0233c1": {
-    "cryptoCompareId": "BTU"
-  },
   "aae5349e-9f5a-59de-a54d-702518fd94ad": {
     "cryptoCompareId": "BUSD"
   },
@@ -606,9 +550,6 @@
     "coinCapId": "bezant",
     "coinGeckoId": "bezant",
     "cryptoCompareId": "BZNT"
-  },
-  "d4a935c9-92ba-5e8d-b66f-c19e704b0c8a": {
-    "cryptoCompareId": "C20"
   },
   "15f893ac-735d-5b99-814f-cb480af2a670": {
     "coinGeckoId": "carboneum"
@@ -745,12 +686,6 @@
     "coinCapId": "cybermiles",
     "cryptoCompareId": "CMT"
   },
-  "59eb5fb9-ce3f-55c1-ab02-934093c96540": {
-    "coinCapId": "cindicator",
-    "coinGeckoId": "cindicator",
-    "cryptoCompareId": "CND",
-    "cryptoCurrencyIconName": "cnd"
-  },
   "0194aacc-2db6-5948-9a18-4e6bff90b02f": {
     "coinCapId": "content-neutrality-network",
     "coinGeckoId": "cnn",
@@ -886,11 +821,6 @@
     "coinGeckoId": "carvertical",
     "cryptoCompareId": "CV"
   },
-  "0c7a799d-c135-5ce5-ae37-b5d960510a18": {
-    "coinCapId": "civic",
-    "cryptoCompareId": "CVC",
-    "cryptoCurrencyIconName": "cvc"
-  },
   "01afcee3-fafb-5260-a34c-786479a8199a": {
     "coinCapId": "cybervein",
     "cryptoCompareId": "CVT"
@@ -934,12 +864,6 @@
     "coinGeckoId": "datum",
     "cryptoCompareId": "DAT",
     "cryptoCurrencyIconName": "dat"
-  },
-  "b4ebfad5-090f-534e-aa26-e77035adc0fc": {
-    "coinCapId": "streamr-datacoin",
-    "coinGeckoId": "streamr-datacoin",
-    "cryptoCompareId": "DATA",
-    "cryptoCurrencyIconName": "data"
   },
   "6722dd73-c8b2-585a-8f39-37e164f2d31d": {
     "coinCapId": "datx",
@@ -1010,12 +934,6 @@
   "40de5103-98a5-5dc2-b846-1840475f6d86": {
     "coinGeckoId": "dforce-token"
   },
-  "d06a2375-0c17-52a5-9bb4-c03399abf407": {
-    "coinCapId": "digixdao",
-    "coinGeckoId": "digixdao",
-    "cryptoCompareId": "DGD",
-    "cryptoCurrencyIconName": "dgd"
-  },
   "99caa48c-6485-58c1-86d1-ee301f4c2bd4": {
     "coinGeckoId": "digipulse",
     "cryptoCompareId": "DGPT"
@@ -1036,9 +954,6 @@
   "6d7987ef-b7f2-5952-8c06-e098e4fc7157": {
     "coinCapId": "etheroll",
     "cryptoCompareId": "DICE"
-  },
-  "66e28eb6-b405-5440-a277-bd4450f94537": {
-    "cryptoCompareId": "DIP"
   },
   "59176c3e-cf5a-58d5-a5dc-1826ed86f661": {
     "coinCapId": "digital-insurance-token",
@@ -1183,12 +1098,6 @@
     "cryptoCompareId": "EDG",
     "cryptoCurrencyIconName": "edg"
   },
-  "b27b56bc-6aa3-5533-924e-792adc474b4a": {
-    "coinCapId": "eidoo",
-    "coinGeckoId": "eidoo",
-    "cryptoCompareId": "EDO",
-    "cryptoCurrencyIconName": "edo"
-  },
   "6aeb011d-ddae-553b-b9b9-5fd31cb36768": {
     "coinCapId": "endor-protocol",
     "coinGeckoId": "endor",
@@ -1202,11 +1111,6 @@
     "coinCapId": "egretia",
     "coinGeckoId": "egretia",
     "cryptoCompareId": "EGT"
-  },
-  "a3b57385-db24-51bb-b393-1e495c3061af": {
-    "coinCapId": "echolink",
-    "coinGeckoId": "echolink",
-    "cryptoCompareId": "EKO"
   },
   "c4ecd440-9b31-5e74-a7b6-6dfdacc3fc19": {
     "coinCapId": "educare",
@@ -1242,12 +1146,6 @@
   "178c9507-0d10-5d1d-a453-f7f6c7923443": {
     "coinGeckoId": "ethereum-movie-venture",
     "cryptoCompareId": "EMV"
-  },
-  "aa6dcf82-4dc0-5eaa-8dc9-8598a24b434a": {
-    "coinCapId": "enigma-project",
-    "coinGeckoId": "enigma",
-    "cryptoCompareId": "ENG",
-    "cryptoCurrencyIconName": "eng"
   },
   "49c43355-1108-5de3-bc90-362f1500c785": {
     "coinCapId": "engagement-token",
@@ -1425,10 +1323,6 @@
     "coinCapId": "formosa-financial",
     "coinGeckoId": "formosa-financial"
   },
-  "86816d31-9a16-5c4c-acda-2a295749de81": {
-    "coinGeckoId": "fundrequest",
-    "cryptoCompareId": "FND"
-  },
   "09f77ba8-191e-5aa2-ac95-5a5ff27591b0": {
     "coinCapId": "fnkos",
     "coinGeckoId": "fnkos"
@@ -1487,11 +1381,6 @@
     "coinCapId": "farmatrust",
     "coinGeckoId": "farmatrust",
     "cryptoCompareId": "FTT"
-  },
-  "1972cda0-4592-52de-bd5a-691bfea8c8d0": {
-    "coinCapId": "fintrux-network",
-    "coinGeckoId": "fintrux",
-    "cryptoCompareId": "FTX"
   },
   "e290cb0a-af95-51b1-8c32-9caf4e77cab0": {
     "coinCapId": "futurax",
@@ -1555,10 +1444,6 @@
     "coinGeckoId": "gems-2",
     "cryptoCompareId": "GEM"
   },
-  "3cb0bb0a-17db-5453-b99f-f0de3dfc5d4a": {
-    "coinGeckoId": "daostack",
-    "cryptoCompareId": "GENS"
-  },
   "80dbc8dd-9bcf-5095-babc-13c148aa17c4": {
     "coinCapId": "get-protocol",
     "coinGeckoId": "get-token",
@@ -1579,18 +1464,6 @@
   "b0f9acd2-756b-5ff8-8fd5-39f94cf88ee2": {
     "cryptoCompareId": "GMT"
   },
-  "3d10c6ef-249c-525a-8725-d7e7b7495948": {
-    "coinCapId": "gnosis-gno",
-    "coinGeckoId": "gnosis",
-    "cryptoCompareId": "GNO",
-    "cryptoCurrencyIconName": "gno"
-  },
-  "59a6f871-34bb-5914-86cc-b5f1307bb3b9": {
-    "coinCapId": "golem-network-tokens",
-    "coinGeckoId": "golem",
-    "cryptoCompareId": "GNT",
-    "cryptoCurrencyIconName": "gnt"
-  },
   "d2ef064c-46fb-5244-93d5-538830c495df": {
     "coinCapId": "genaro-network",
     "coinGeckoId": "genaro-network",
@@ -1603,11 +1476,6 @@
   "977cc2ce-6f74-5909-9776-9b30eee95caa": {
     "coinCapId": "gonetwork",
     "cryptoCompareId": "GTK"
-  },
-  "1d8a2b3b-12c9-5fef-8e46-68ce1092afe8": {
-    "coinCapId": "grid",
-    "coinGeckoId": "grid",
-    "cryptoCompareId": "GRID"
   },
   "8050bf73-6b73-5a0a-9a8a-b422620b9fcc": {
     "coinCapId": "greenmed",
@@ -1757,11 +1625,6 @@
     "coinGeckoId": "decision-token",
     "cryptoCompareId": "HST"
   },
-  "04b41ce6-acdd-530e-9265-d446727aa8cb": {
-    "coinCapId": "huobi-token",
-    "coinGeckoId": "huobi-token",
-    "cryptoCompareId": "HT"
-  },
   "aba07d7c-0556-577c-b3ef-05c6f7211429": {
     "cryptoCompareId": "HV"
   },
@@ -1794,10 +1657,6 @@
     "coinCapId": "indahash",
     "coinGeckoId": "indahash",
     "cryptoCompareId": "IDH"
-  },
-  "a8e69eb2-5648-5ab0-9a11-757e9ba0c587": {
-    "coinGeckoId": "rupiah-token",
-    "cryptoCompareId": "IDRT"
   },
   "fd1fdec8-c6cb-5745-987b-59645b83f826": {
     "coinCapId": "idex-membership",
@@ -1951,12 +1810,6 @@
     "coinGeckoId": "kind-ads-token",
     "cryptoCompareId": "KIND"
   },
-  "8138f106-9d3a-5b37-9e0e-ad48e9ee2109": {
-    "coinCapId": "kyber-network",
-    "coinGeckoId": "kyber-network",
-    "cryptoCompareId": "KNC",
-    "cryptoCurrencyIconName": "knc"
-  },
   "6136e3a1-8a2b-51a9-aa28-c57e9e730a97": {
     "coinCapId": "kanadecoin",
     "coinGeckoId": "kanadecoin"
@@ -2097,27 +1950,11 @@
     "coinGeckoId": "locus-chain",
     "cryptoCompareId": "LOCUS"
   },
-  "9f563cf7-f883-5459-845e-5021a2f58629": {
-    "coinCapId": "loom-network",
-    "coinGeckoId": "loom-network",
-    "cryptoCompareId": "LOOM",
-    "cryptoCurrencyIconName": "loom"
-  },
   "0765f5fa-f31e-5aa9-9122-c20b90d686f3": {
     "coinCapId": "livepeer",
     "coinGeckoId": "livepeer",
     "cryptoCompareId": "LPT",
     "cryptoCurrencyIconName": "lpt"
-  },
-  "fde4caf7-0e9d-56b7-ace1-975f09349353": {
-    "coinGeckoId": "liquidity-network",
-    "cryptoCompareId": "LQDN"
-  },
-  "7bd0761b-df34-5f0d-ac6e-403c93c5bebd": {
-    "coinCapId": "loopring",
-    "coinGeckoId": "loopring",
-    "cryptoCompareId": "LRC",
-    "cryptoCurrencyIconName": "lrc"
   },
   "fd184e38-34e5-5176-ae0a-cab819e68b9a": {
     "cryptoCompareId": "LRC"
@@ -2151,12 +1988,6 @@
     "coinGeckoId": "matrix-ai-network",
     "cryptoCompareId": "MXAI"
   },
-  "c07fe952-47cc-591a-be8a-2313965b5d00": {
-    "coinCapId": "decentraland",
-    "coinGeckoId": "decentraland",
-    "cryptoCompareId": "MANA",
-    "cryptoCurrencyIconName": "mana"
-  },
   "b1b21dd6-15b4-5286-9351-79f8f6c3d727": {
     "cryptoCompareId": "MAS"
   },
@@ -2174,10 +2005,6 @@
     "coinCapId": "musiconomi",
     "coinGeckoId": "musiconomi",
     "cryptoCompareId": "MCI"
-  },
-  "6d83ba56-5844-525b-98f6-e1cb3001317f": {
-    "cryptoCompareId": "MCO",
-    "cryptoCurrencyIconName": "mco"
   },
   "dca8f77b-e865-5e82-8098-8acdbab57b68": {
     "coinCapId": "moeda-loyalty-points",
@@ -2253,12 +2080,6 @@
   },
   "d69f3e38-de6b-5c27-be7f-a9df4581043c": {
     "cryptoCompareId": "MITX"
-  },
-  "d3230312-cacb-52e6-a849-8bbf6e8142dd": {
-    "coinCapId": "maker",
-    "coinGeckoId": "maker",
-    "cryptoCompareId": "MKR",
-    "cryptoCurrencyIconName": "mkr"
   },
   "9fad8ea0-256e-55e7-9129-851b89c9caaa": {
     "cryptoCompareId": "MLN"
@@ -2409,10 +2230,6 @@
     "coinGeckoId": "newbium",
     "cryptoCompareId": "NEWB"
   },
-  "c284a039-7fb7-5ff8-9d76-22e1321b92f6": {
-    "coinCapId": "nexo",
-    "cryptoCurrencyIconName": "nexo"
-  },
   "7c39f1de-8bc8-5d03-bee5-6451741664bd": {
     "coinCapId": "naga",
     "coinGeckoId": "naga",
@@ -2427,11 +2244,6 @@
     "coinGeckoId": "autonio",
     "cryptoCompareId": "NIO",
     "cryptoCurrencyIconName": "nio"
-  },
-  "f1ca8ca6-307f-5f04-bccb-5a2144551695": {
-    "coinCapId": "numeraire",
-    "coinGeckoId": "numeraire",
-    "cryptoCompareId": "NMR"
   },
   "0454fc63-bf6f-5476-b65a-f0b768170813": {
     "coinCapId": "noah-coin",
@@ -2521,12 +2333,6 @@
     "coinCapId": "oneledger",
     "coinGeckoId": "one-ledger",
     "cryptoCompareId": "OLT"
-  },
-  "3ebda70e-d4a9-5a20-81a1-32f1109d3121": {
-    "coinCapId": "omisego",
-    "coinGeckoId": "omisego",
-    "cryptoCompareId": "OMG",
-    "cryptoCurrencyIconName": "omg"
   },
   "86a69a84-6a44-5f51-ab51-505fc5f17c19": {
     "coinCapId": "shivom",
@@ -2618,12 +2424,6 @@
     "coinGeckoId": "patron",
     "cryptoCompareId": "PAT"
   },
-  "c90311b2-90b2-5bf4-8d93-e06bd7cfb666": {
-    "coinCapId": "paxos-standard-token",
-    "coinGeckoId": "paxos-standard",
-    "cryptoCompareId": "PAX",
-    "cryptoCurrencyIconName": "pax"
-  },
   "b7b4cc77-fb11-56d7-86e1-cd21165b4370": {
     "cryptoCompareId": "PAXG"
   },
@@ -2713,9 +2513,6 @@
     "coinGeckoId": "paymon",
     "cryptoCompareId": "PMNT"
   },
-  "6f3dc51e-1769-5b6d-beb1-63f24d977ac7": {
-    "cryptoCompareId": "PNK"
-  },
   "dce80835-296d-5afb-b298-7d3239053013": {
     "coinCapId": "poet",
     "coinGeckoId": "poet",
@@ -2727,24 +2524,12 @@
     "coinGeckoId": "clearpoll",
     "cryptoCompareId": "POLL"
   },
-  "99839180-6b19-5635-8ca2-c6bcff3b1599": {
-    "coinCapId": "polymath-network",
-    "coinGeckoId": "polymath-network",
-    "cryptoCompareId": "POLY",
-    "cryptoCurrencyIconName": "poly"
-  },
   "2162b740-e462-5566-98b4-5983e17735db": {
     "cryptoCompareId": "POPC"
   },
   "53cb6e51-53a9-5965-bb41-218504eea1c7": {
     "coinCapId": "postoken",
     "cryptoCompareId": "POS"
-  },
-  "ca05380d-9596-57c1-972f-a623c163e383": {
-    "coinCapId": "power-ledger",
-    "coinGeckoId": "power-ledger",
-    "cryptoCompareId": "POWR",
-    "cryptoCurrencyIconName": "powr"
   },
   "e3b2eae1-3065-54b3-a5ea-b396c1913332": {
     "coinCapId": "paypie",
@@ -2822,23 +2607,12 @@
     "coinGeckoId": "pylon-network",
     "cryptoCompareId": "PYLNT"
   },
-  "b39b218d-e57a-50bc-adba-716ab59e9608": {
-    "coinCapId": "qash",
-    "coinGeckoId": "qash",
-    "cryptoCompareId": "QASH",
-    "cryptoCurrencyIconName": "qash"
-  },
   "e9d2ff38-5815-5e21-95a1-4ad8d5e408aa": {
     "coinGeckoId": "qubitica",
     "cryptoCompareId": "QBIT"
   },
   "002080b1-54e6-5cac-93b2-04d03949dc52": {
     "coinGeckoId": "qiibee"
-  },
-  "1bea698a-ea13-5539-890e-3e9026505bca": {
-    "coinCapId": "quarkchain",
-    "coinGeckoId": "quark-chain",
-    "cryptoCompareId": "QKC"
   },
   "a4aeb323-2d6b-5456-a6ca-5b900b2e433c": {
     "coinCapId": "quant",
@@ -2892,12 +2666,6 @@
     "coinGeckoId": "realchain",
     "cryptoCompareId": "RCT"
   },
-  "581d9bc9-0697-5610-9821-eecac607c063": {
-    "coinCapId": "raiden-network-token",
-    "coinGeckoId": "raiden-network",
-    "cryptoCompareId": "RDNN",
-    "cryptoCurrencyIconName": "rdn"
-  },
   "af0c3b0d-a2aa-5c6f-a354-fa539a34966e": {
     "cryptoCompareId": "REA"
   },
@@ -2931,12 +2699,6 @@
   "45cc0791-d3e8-548b-b93f-56141e00f45e": {
     "coinCapId": "republic-protocol",
     "cryptoCompareId": "REN"
-  },
-  "d017a1e8-bdd3-5c32-8866-da258f75b0e9": {
-    "coinCapId": "augur",
-    "coinGeckoId": "augur",
-    "cryptoCompareId": "REP",
-    "cryptoCurrencyIconName": "rep"
   },
   "d4ad5d17-8c54-5c97-8dce-3990925db2b3": {
     "coinCapId": "request-network",
@@ -3014,10 +2776,6 @@
   },
   "4f36f92a-4522-5974-bfbc-adecdac96a71": {
     "cryptoCompareId": "ROK"
-  },
-  "4ea90082-23fe-55e5-8b4a-a23cda228e65": {
-    "coinCapId": "rocket-pool",
-    "coinGeckoId": "rocket-pool"
   },
   "67b64d10-db8a-573a-8332-e8a3b7d32f9f": {
     "coinCapId": "ab-chain-rtb",
@@ -3186,10 +2944,6 @@
     "coinGeckoId": "silent-notary",
     "cryptoCompareId": "SNTR"
   },
-  "a24f0eba-c56c-5095-8b45-d4bd5b7063d7": {
-    "coinGeckoId": "havven",
-    "cryptoCompareId": "SNX"
-  },
   "3e23d306-8442-5041-a26c-083fe621ca8a": {
     "coinCapId": "soarcoin",
     "coinGeckoId": "soarcoin",
@@ -3212,12 +2966,6 @@
   },
   "e223afeb-0c63-5b78-a59a-00781527fb01": {
     "coinGeckoId": "cryptosoul"
-  },
-  "b142d2c4-16f3-5b29-b260-1144d4895283": {
-    "coinCapId": "spankchain",
-    "coinGeckoId": "spankchain",
-    "cryptoCompareId": "SPANK",
-    "cryptoCurrencyIconName": "spank"
   },
   "7f20ee67-461d-5276-8179-672e31ee38ec": {
     "coinCapId": "spacechain",
@@ -3277,9 +3025,6 @@
   "66904a5d-878d-5739-a298-8d4c1811a7a1": {
     "cryptoCompareId": "STK"
   },
-  "6c67c161-9c44-5ba7-85ec-7d91ac2c5e80": {
-    "cryptoCompareId": "STORJ"
-  },
   "d204b643-b2d6-5884-9d76-f221d34e6356": {
     "coinCapId": "storm",
     "coinGeckoId": "storm",
@@ -3320,9 +3065,6 @@
     "coinCapId": "suretly",
     "coinGeckoId": "suretly",
     "cryptoCompareId": "SUR"
-  },
-  "933d3751-169e-579c-a310-e649a8382317": {
-    "cryptoCompareId": "NUSD"
   },
   "a54165b6-f80d-5c8b-81f6-3a2d9cc1944d": {
     "coinCapId": "savedroid",
@@ -3431,9 +3173,6 @@
     "coinCapId": "theta-token",
     "cryptoCompareId": "THETA"
   },
-  "528c37bf-1b7f-5740-a958-9cb445e66582": {
-    "coinGeckoId": "truehkd"
-  },
   "02a41903-3537-57e7-b3d2-bf22b1899ef6": {
     "coinGeckoId": "thorecoin",
     "cryptoCompareId": "THR"
@@ -3475,11 +3214,6 @@
     "coinCapId": "tokia",
     "coinGeckoId": "tokia",
     "cryptoCompareId": "TKA"
-  },
-  "b624cbe8-d9a2-53fa-84ba-00589010c840": {
-    "coinCapId": "tokencard",
-    "cryptoCompareId": "TKN",
-    "cryptoCurrencyIconName": "tkn"
   },
   "f3ba06cb-721b-5304-ae74-2f7667b0cf78": {
     "cryptoCompareId": "TKR"
@@ -3551,12 +3285,6 @@
   "4ce50068-0edc-5243-a053-4efbbea6a406": {
     "cryptoCompareId": "TTV"
   },
-  "685f1c7f-2d31-56c2-ae80-9cd433aeb0e1": {
-    "coinCapId": "trueusd",
-    "coinGeckoId": "true-usd",
-    "cryptoCompareId": "TUSD",
-    "cryptoCurrencyIconName": "tusd"
-  },
   "73ca1099-63ba-5ebd-9593-fb710a5e7f2b": {
     "cryptoCompareId": "UBEX"
   },
@@ -3604,12 +3332,6 @@
   },
   "e44e9650-baea-5fef-b598-cb3ecb153e94": {
     "cryptoCompareId": "URB"
-  },
-  "2ed3ebcd-2d4f-52f7-b12b-54360ed49b55": {
-    "coinCapId": "usd-coin",
-    "coinGeckoId": "usd-coin",
-    "cryptoCompareId": "USDC",
-    "cryptoCurrencyIconName": "usdc"
   },
   "36e67cee-e26f-51cb-8d63-a7b169fe9848": {
     "cryptoCompareId": "USDS"
@@ -3750,10 +3472,6 @@
     "cryptoCompareId": "WAX",
     "cryptoCurrencyIconName": "wax"
   },
-  "0486cb78-9392-5ff0-a790-03843d79b073": {
-    "coinGeckoId": "wrapped-bitcoin",
-    "cryptoCompareId": "WBTC"
-  },
   "837c0dc8-b028-5479-aaf7-662cdfef6e20": {
     "coinCapId": "webcoin",
     "coinGeckoId": "webchain",
@@ -3807,12 +3525,6 @@
     "coinGeckoId": "worldcore",
     "cryptoCompareId": "WRC"
   },
-  "c9394e05-08fb-5710-817b-3199d2cfbefb": {
-    "coinCapId": "waltonchain",
-    "coinGeckoId": "waltonchain",
-    "cryptoCompareId": "WTC",
-    "cryptoCurrencyIconName": "wtc"
-  },
   "ba353185-182c-545a-a55c-8190c89d6d1e": {
     "cryptoCompareId": "WTT"
   },
@@ -3836,10 +3548,6 @@
     "coinCapId": "blitzpredict",
     "coinGeckoId": "blitzpredict",
     "cryptoCompareId": "BPX"
-  },
-  "07d14656-bb5a-5b83-a240-ad61892df119": {
-    "coinGeckoId": "cryptofranc",
-    "cryptoCompareId": "XCHF"
   },
   "e14c9f56-1af3-5410-82d5-10b9a1bbf551": {
     "coinCapId": "clearcoin",
@@ -3938,12 +3646,6 @@
   "5fb8d3cb-df27-5cfb-9092-6d3e357e0f63": {
     "coinGeckoId": "zuescrowdfunding"
   },
-  "bebb34bf-3639-5b74-86f5-26ac66c7b47f": {
-    "coinCapId": "zilliqa",
-    "coinGeckoId": "zilliqa",
-    "cryptoCompareId": "ZIL",
-    "cryptoCurrencyIconName": "zil"
-  },
   "e682254e-2293-5b42-8d20-d04d264052f7": {
     "coinCapId": "zinc",
     "coinGeckoId": "zinc",
@@ -3985,5 +3687,303 @@
   },
   "10b38465-640c-509a-b047-8d9671a245ae": {
     "coinGeckoId": "vechain-old-erc20"
+  },
+  "4f387b74-88e2-5a56-9664-0224ee546c6a": {
+    "coinCapId": "arcblock",
+    "coinGeckoId": "arcblock",
+    "cryptoCompareId": "ABT",
+    "cryptoCurrencyIconName": "abt"
+  },
+  "f5212133-7c4f-5047-8c23-ea2ede62f796": {
+    "coinCapId": "singularitynet",
+    "coinGeckoId": "singularitynet",
+    "cryptoCompareId": "AGI",
+    "cryptoCurrencyIconName": "agi"
+  },
+  "432d8898-ad05-5f2b-a731-2aa7865943a4": {
+    "coinCapId": "amon",
+    "coinGeckoId": "amon",
+    "cryptoCompareId": "AMN"
+  },
+  "7f4d2f19-9a76-5930-b63b-ac9b0afe6201": {
+    "coinCapId": "aragon",
+    "coinGeckoId": "aragon",
+    "cryptoCompareId": "ANT",
+    "cryptoCurrencyIconName": "ant"
+  },
+  "e34bb9ff-47be-503b-956b-30d4b3f3507b": {
+    "coinCapId": "basic-attention-token",
+    "coinGeckoId": "basic-attention-token",
+    "cryptoCompareId": "BAT",
+    "cryptoCurrencyIconName": "bat"
+  },
+  "72b20567-4de6-576d-a708-026b68f0509a": {
+    "coinCapId": "bee-token",
+    "coinGeckoId": "bee-token",
+    "cryptoCompareId": "BEE"
+  },
+  "65e92849-dc9f-541a-a548-335e10299120": {
+    "coinCapId": "bloomtoken",
+    "coinGeckoId": "bloom",
+    "cryptoCompareId": "BLT"
+  },
+  "688f099f-83a7-5102-b16e-7f97fe22b023": {
+    "coinCapId": "bluzelle",
+    "cryptoCompareId": "BLZ"
+  },
+  "778541d2-65e6-5c57-b083-aa3129eb91c8": {
+    "coinCapId": "bancor",
+    "cryptoCompareId": "BNT"
+  },
+  "3e2b3e48-d0f2-520c-9639-622e0bd15fab": {
+    "coinCapId": "bounty0x",
+    "coinGeckoId": "bounty0x",
+    "cryptoCompareId": "BNTY",
+    "cryptoCurrencyIconName": "bnty"
+  },
+  "3e654fac-32c4-5e4a-b4c4-186eeb0233c1": {
+    "cryptoCompareId": "BTU"
+  },
+  "d4a935c9-92ba-5e8d-b66f-c19e704b0c8a": {
+    "cryptoCompareId": "C20"
+  },
+  "59eb5fb9-ce3f-55c1-ab02-934093c96540": {
+    "coinCapId": "cindicator",
+    "coinGeckoId": "cindicator",
+    "cryptoCompareId": "CND",
+    "cryptoCurrencyIconName": "cnd"
+  },
+  "0c7a799d-c135-5ce5-ae37-b5d960510a18": {
+    "coinCapId": "civic",
+    "cryptoCompareId": "CVC",
+    "cryptoCurrencyIconName": "cvc"
+  },
+  "b4ebfad5-090f-534e-aa26-e77035adc0fc": {
+    "coinCapId": "streamr-datacoin",
+    "coinGeckoId": "streamr-datacoin",
+    "cryptoCompareId": "DATA",
+    "cryptoCurrencyIconName": "data"
+  },
+  "d06a2375-0c17-52a5-9bb4-c03399abf407": {
+    "coinCapId": "digixdao",
+    "coinGeckoId": "digixdao",
+    "cryptoCompareId": "DGD",
+    "cryptoCurrencyIconName": "dgd"
+  },
+  "66e28eb6-b405-5440-a277-bd4450f94537": {
+    "cryptoCompareId": "DIP"
+  },
+  "b27b56bc-6aa3-5533-924e-792adc474b4a": {
+    "coinCapId": "eidoo",
+    "coinGeckoId": "eidoo",
+    "cryptoCompareId": "EDO",
+    "cryptoCurrencyIconName": "edo"
+  },
+  "a3b57385-db24-51bb-b393-1e495c3061af": {
+    "coinCapId": "echolink",
+    "coinGeckoId": "echolink",
+    "cryptoCompareId": "EKO"
+  },
+  "aa6dcf82-4dc0-5eaa-8dc9-8598a24b434a": {
+    "coinCapId": "enigma-project",
+    "coinGeckoId": "enigma",
+    "cryptoCompareId": "ENG",
+    "cryptoCurrencyIconName": "eng"
+  },
+  "86816d31-9a16-5c4c-acda-2a295749de81": {
+    "coinGeckoId": "fundrequest",
+    "cryptoCompareId": "FND"
+  },
+  "1972cda0-4592-52de-bd5a-691bfea8c8d0": {
+    "coinCapId": "fintrux-network",
+    "coinGeckoId": "fintrux",
+    "cryptoCompareId": "FTX"
+  },
+  "3cb0bb0a-17db-5453-b99f-f0de3dfc5d4a": {
+    "coinGeckoId": "daostack",
+    "cryptoCompareId": "GENS"
+  },
+  "3d10c6ef-249c-525a-8725-d7e7b7495948": {
+    "coinCapId": "gnosis-gno",
+    "coinGeckoId": "gnosis",
+    "cryptoCompareId": "GNO",
+    "cryptoCurrencyIconName": "gno"
+  },
+  "59a6f871-34bb-5914-86cc-b5f1307bb3b9": {
+    "coinCapId": "golem-network-tokens",
+    "coinGeckoId": "golem",
+    "cryptoCompareId": "GNT",
+    "cryptoCurrencyIconName": "gnt"
+  },
+  "1d8a2b3b-12c9-5fef-8e46-68ce1092afe8": {
+    "coinCapId": "grid",
+    "coinGeckoId": "grid",
+    "cryptoCompareId": "GRID"
+  },
+  "04b41ce6-acdd-530e-9265-d446727aa8cb": {
+    "coinCapId": "huobi-token",
+    "coinGeckoId": "huobi-token",
+    "cryptoCompareId": "HT"
+  },
+  "a8e69eb2-5648-5ab0-9a11-757e9ba0c587": {
+    "coinGeckoId": "rupiah-token",
+    "cryptoCompareId": "IDRT"
+  },
+  "8138f106-9d3a-5b37-9e0e-ad48e9ee2109": {
+    "coinCapId": "kyber-network",
+    "coinGeckoId": "kyber-network",
+    "cryptoCompareId": "KNC",
+    "cryptoCurrencyIconName": "knc"
+  },
+  "9f563cf7-f883-5459-845e-5021a2f58629": {
+    "coinCapId": "loom-network",
+    "coinGeckoId": "loom-network",
+    "cryptoCompareId": "LOOM",
+    "cryptoCurrencyIconName": "loom"
+  },
+  "fde4caf7-0e9d-56b7-ace1-975f09349353": {
+    "coinGeckoId": "liquidity-network",
+    "cryptoCompareId": "LQDN"
+  },
+  "7bd0761b-df34-5f0d-ac6e-403c93c5bebd": {
+    "coinCapId": "loopring",
+    "coinGeckoId": "loopring",
+    "cryptoCompareId": "LRC",
+    "cryptoCurrencyIconName": "lrc"
+  },
+  "c07fe952-47cc-591a-be8a-2313965b5d00": {
+    "coinCapId": "decentraland",
+    "coinGeckoId": "decentraland",
+    "cryptoCompareId": "MANA",
+    "cryptoCurrencyIconName": "mana"
+  },
+  "6d83ba56-5844-525b-98f6-e1cb3001317f": {
+    "cryptoCompareId": "MCO",
+    "cryptoCurrencyIconName": "mco"
+  },
+  "d3230312-cacb-52e6-a849-8bbf6e8142dd": {
+    "coinCapId": "maker",
+    "coinGeckoId": "maker",
+    "cryptoCompareId": "MKR",
+    "cryptoCurrencyIconName": "mkr"
+  },
+  "c284a039-7fb7-5ff8-9d76-22e1321b92f6": {
+    "coinCapId": "nexo",
+    "cryptoCurrencyIconName": "nexo"
+  },
+  "f1ca8ca6-307f-5f04-bccb-5a2144551695": {
+    "coinCapId": "numeraire",
+    "coinGeckoId": "numeraire",
+    "cryptoCompareId": "NMR"
+  },
+  "3ebda70e-d4a9-5a20-81a1-32f1109d3121": {
+    "coinCapId": "omisego",
+    "coinGeckoId": "omisego",
+    "cryptoCompareId": "OMG",
+    "cryptoCurrencyIconName": "omg"
+  },
+  "c90311b2-90b2-5bf4-8d93-e06bd7cfb666": {
+    "coinCapId": "paxos-standard-token",
+    "coinGeckoId": "paxos-standard",
+    "cryptoCompareId": "PAX",
+    "cryptoCurrencyIconName": "pax"
+  },
+  "6f3dc51e-1769-5b6d-beb1-63f24d977ac7": {
+    "cryptoCompareId": "PNK"
+  },
+  "99839180-6b19-5635-8ca2-c6bcff3b1599": {
+    "coinCapId": "polymath-network",
+    "coinGeckoId": "polymath-network",
+    "cryptoCompareId": "POLY",
+    "cryptoCurrencyIconName": "poly"
+  },
+  "ca05380d-9596-57c1-972f-a623c163e383": {
+    "coinCapId": "power-ledger",
+    "coinGeckoId": "power-ledger",
+    "cryptoCompareId": "POWR",
+    "cryptoCurrencyIconName": "powr"
+  },
+  "b39b218d-e57a-50bc-adba-716ab59e9608": {
+    "coinCapId": "qash",
+    "coinGeckoId": "qash",
+    "cryptoCompareId": "QASH",
+    "cryptoCurrencyIconName": "qash"
+  },
+  "1bea698a-ea13-5539-890e-3e9026505bca": {
+    "coinCapId": "quarkchain",
+    "coinGeckoId": "quark-chain",
+    "cryptoCompareId": "QKC"
+  },
+  "581d9bc9-0697-5610-9821-eecac607c063": {
+    "coinCapId": "raiden-network-token",
+    "coinGeckoId": "raiden-network",
+    "cryptoCompareId": "RDNN",
+    "cryptoCurrencyIconName": "rdn"
+  },
+  "d017a1e8-bdd3-5c32-8866-da258f75b0e9": {
+    "coinCapId": "augur",
+    "coinGeckoId": "augur",
+    "cryptoCompareId": "REP",
+    "cryptoCurrencyIconName": "rep"
+  },
+  "4ea90082-23fe-55e5-8b4a-a23cda228e65": {
+    "coinCapId": "rocket-pool",
+    "coinGeckoId": "rocket-pool"
+  },
+  "a24f0eba-c56c-5095-8b45-d4bd5b7063d7": {
+    "coinGeckoId": "havven",
+    "cryptoCompareId": "SNX"
+  },
+  "b142d2c4-16f3-5b29-b260-1144d4895283": {
+    "coinCapId": "spankchain",
+    "coinGeckoId": "spankchain",
+    "cryptoCompareId": "SPANK",
+    "cryptoCurrencyIconName": "spank"
+  },
+  "6c67c161-9c44-5ba7-85ec-7d91ac2c5e80": {
+    "cryptoCompareId": "STORJ"
+  },
+  "933d3751-169e-579c-a310-e649a8382317": {
+    "cryptoCompareId": "NUSD"
+  },
+  "528c37bf-1b7f-5740-a958-9cb445e66582": {
+    "coinGeckoId": "truehkd"
+  },
+  "b624cbe8-d9a2-53fa-84ba-00589010c840": {
+    "coinCapId": "tokencard",
+    "cryptoCompareId": "TKN",
+    "cryptoCurrencyIconName": "tkn"
+  },
+  "685f1c7f-2d31-56c2-ae80-9cd433aeb0e1": {
+    "coinCapId": "trueusd",
+    "coinGeckoId": "true-usd",
+    "cryptoCompareId": "TUSD",
+    "cryptoCurrencyIconName": "tusd"
+  },
+  "2ed3ebcd-2d4f-52f7-b12b-54360ed49b55": {
+    "coinCapId": "usd-coin",
+    "coinGeckoId": "usd-coin",
+    "cryptoCompareId": "USDC",
+    "cryptoCurrencyIconName": "usdc"
+  },
+  "0486cb78-9392-5ff0-a790-03843d79b073": {
+    "coinGeckoId": "wrapped-bitcoin",
+    "cryptoCompareId": "WBTC"
+  },
+  "c9394e05-08fb-5710-817b-3199d2cfbefb": {
+    "coinCapId": "waltonchain",
+    "coinGeckoId": "waltonchain",
+    "cryptoCompareId": "WTC",
+    "cryptoCurrencyIconName": "wtc"
+  },
+  "07d14656-bb5a-5b83-a240-ad61892df119": {
+    "coinGeckoId": "cryptofranc",
+    "cryptoCompareId": "XCHF"
+  },
+  "bebb34bf-3639-5b74-86f5-26ac66c7b47f": {
+    "coinCapId": "zilliqa",
+    "coinGeckoId": "zilliqa",
+    "cryptoCompareId": "ZIL",
+    "cryptoCurrencyIconName": "zil"
   }
 }
