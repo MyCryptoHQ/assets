@@ -53,6 +53,7 @@ Object {
   "coinCapId": "golem-network-tokens",
   "coinGeckoId": "golem",
   "cryptoCompareId": "GNT",
+  "dexAgId": "GNT",
 }
 `;
 
@@ -63,12 +64,14 @@ Object {
     "coinGeckoId": "golem",
     "cryptoCompareId": "GNT",
     "cryptoCurrencyIconName": "gnt",
+    "dexAgId": "GNT",
   },
   "d3230312-cacb-52e6-a849-8bbf6e8142dd": Object {
     "coinCapId": "maker",
     "coinGeckoId": "maker",
     "cryptoCompareId": "MKR",
     "cryptoCurrencyIconName": "mkr",
+    "dexAgId": "MKR",
   },
 }
 `;

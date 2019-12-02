@@ -14,6 +14,7 @@ export interface ParsedAsset {
   coinGeckoId?: string;
   cryptoCompareId?: string;
   cryptoCurrencyIconName?: string;
+  dexAgId?: string;
 }
 
 /**
@@ -54,7 +55,8 @@ export const ASSET_SCHEMA = object({
   coinCapId: string().optional(),
   coinGeckoId: string().optional(),
   cryptoCompareId: string().optional(),
-  cryptoCurrencyIconName: string().optional()
+  cryptoCurrencyIconName: string().optional(),
+  dexAgId: string().optional()
 });
 
 export const OUTPUT_PATH = resolve(__dirname, '../assets/assets.json');

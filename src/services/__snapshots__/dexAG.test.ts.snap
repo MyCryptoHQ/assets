@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matchDexAgId initializes the cache 1`] = `
+Array [
+  Object {
+    "name": "ETH",
+    "symbol": "ETH",
+  },
+]
+`;

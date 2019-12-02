@@ -15,7 +15,8 @@ jest.mock('./services', () => ({
   matchCoinCapId: jest.fn(async () => 'golem-network-tokens'),
   matchCoinGeckoId: jest.fn(async () => 'golem'),
   matchCryptoCompareId: jest.fn(async () => 'GNT'),
-  matchCryptoCurrencyIcon: jest.fn()
+  matchCryptoCurrencyIcon: jest.fn(),
+  matchDexAgId: jest.fn(async () => 'GNT')
 }));
 
 afterEach(() => {
@@ -146,6 +147,7 @@ describe('getParsedAssets', () => {
       coinGeckoId: 'ethereum',
       cryptoCompareId: 'ETH',
       cryptoCurrencyIconName: 'eth',
+      dexAgId: 'ETH',
       invalid: 'field'
     });
   });
