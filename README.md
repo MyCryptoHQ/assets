@@ -25,6 +25,10 @@ The `assets.json` file found in `assets/` consists of a `key -> value` object, w
 
   The name of the icon in the CryptoCurrency Icon library.
 
+* `dexAgId` (string)
+
+  The `id` used in dexAg's API.
+
 Any of these fields can be `undefined`, in which case no matching asset was found.
 
 The UUID is generated based on [RFC-4122](https://tools.ietf.org/html/rfc4122#section-4.3) name-based UUIDs (v5). For tokens, a combination of the chain ID and token contract is used (`${chainId}-${contractAddress}`). For other assets, only the chain ID is used.
