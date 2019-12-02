@@ -96,7 +96,6 @@ export const getParsedAssets = async (): Promise<Record<string, ParsedAsset>> =>
 
   return Object.keys(assets).reduce<Record<string, ParsedAsset>>((object, key) => {
     const asset = assets[key];
-    console.log(asset, isValidAsset(asset));
     if (isValidAsset(asset)) {
       object[key] = asset;
     }

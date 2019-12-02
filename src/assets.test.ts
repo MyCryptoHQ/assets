@@ -141,7 +141,6 @@ describe('getParsedAssets', () => {
 
   it('removes invalid assets', async () => {
     const assets = await getParsedAssets();
-    console.log(assets);
     expect(Object.keys(assets).length).toBe(2);
     expect(Object.values(assets)).not.toContainEqual({
       coinCapId: 'ethereum',

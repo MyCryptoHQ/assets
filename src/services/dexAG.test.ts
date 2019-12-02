@@ -14,7 +14,7 @@ afterEach(() => {
   jest.clearAllMocks();
 });
 
-describe('matchCoinGeckoId', () => {
+describe('matchDexAgId', () => {
   it('initializes the cache', async () => {
     const asset = {
       name: 'ETH',
