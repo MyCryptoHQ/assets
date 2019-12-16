@@ -2767,7 +2767,10 @@
   },
   "070ce3cb-5a08-5c45-9f64-8fe1bea6e852": {
     "cryptoCompareId": "RLC",
-    "dexAgId": "RLC"
+    "dexAgId": "RLC",
+    "coinCapId": "rlc",
+    "coinGeckoId": "iexec-rlc",
+    "cryptoCurrencyIconName": "rlc"
   },
   "230e424b-6ecc-51ad-82d6-811674d20b4f": {
     "coinCapId": "roulettetoken",
@@ -3717,7 +3720,10 @@
   },
   "36a94c95-ec51-5e0f-b254-415e31d1c3a7": {
     "cryptoCompareId": "ZRX",
-    "dexAgId": "ZRX"
+    "dexAgId": "ZRX",
+    "coinGeckoId": "0x",
+    "coinCapId": "0x",
+    "cryptoCurrencyIconName": "zrx"
   },
   "054843cc-b3b7-5724-8ca6-bc4bbb5f52bc": {
     "cryptoCompareId": "ZXC"
@@ -4035,7 +4041,7 @@
   "6c67c161-9c44-5ba7-85ec-7d91ac2c5e80": {
     "coinCapId": "storj",
     "cryptoCompareId": "STORJ",
-    "coinGeckoId": "",
+    "coinGeckoId": "storj",
     "dexAgId": "STORJ",
     "cryptoCurrencyIconName": "storj"
   },
@@ -4103,10 +4109,5 @@
   },
   "55d07f92-9563-504b-86bc-883160078712": {
     "dexAgId": "TGBP"
-  },
-  "1ca0176c-88d7-580b-be3e-54c23038578e": {
-    "coinCapId": "rlc",
-    "coinGeckoId": "iexec-rlc",
-    "cryptoCurrencyIconName": "rlc"
   }
 }
