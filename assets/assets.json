@@ -4109,10 +4109,5 @@
   },
   "55d07f92-9563-504b-86bc-883160078712": {
     "dexAgId": "TGBP"
-  },
-  "1ca0176c-88d7-580b-be3e-54c23038578e": {
-    "coinCapId": "rlc",
-    "coinGeckoId": "iexec-rlc",
-    "cryptoCurrencyIconName": "rlc"
   }
 }
