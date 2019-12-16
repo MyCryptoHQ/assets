@@ -2098,7 +2098,10 @@
     "cryptoCompareId": "MITX"
   },
   "9fad8ea0-256e-55e7-9129-851b89c9caaa": {
-    "cryptoCompareId": "MLN"
+    "coinCapId": "melon",
+    "cryptoCompareId": "MLN",
+    "coinGeckoId": "melon",
+    "cryptoCurrencyIconName": "mln"
   },
   "68a8c331-9f26-5b16-955e-79449eebe74e": {
     "coinCapId": "minereum",
@@ -2325,7 +2328,9 @@
   },
   "e7e545b8-b2f8-553d-9a66-c15cbf7a80fe": {
     "coinCapId": "oax",
-    "cryptoCompareId": "OAX"
+    "cryptoCompareId": "OAX",
+    "coinGeckoId": "openanx",
+    "cryptoCurrencyIconName": "oax"
   },
   "2147c3c9-b482-5e35-9392-7b78c4b2c6af": {
     "cryptoCompareId": "OCX"
@@ -2406,7 +2411,10 @@
     "cryptoCompareId": "OGSP"
   },
   "57fab959-b278-585b-b43b-77266f986a38": {
-    "cryptoCompareId": "OST"
+    "coinCapId": "ost",
+    "cryptoCompareId": "OST",
+    "coinGeckoId": "simple-token",
+    "cryptoCurrencyIconName": "ost"
   },
   "6fc840c8-f92e-5bbd-9019-fadc05729444": {
     "coinCapId": "open-trading-network",
@@ -2759,7 +2767,10 @@
   },
   "070ce3cb-5a08-5c45-9f64-8fe1bea6e852": {
     "cryptoCompareId": "RLC",
-    "dexAgId": "RLC"
+    "dexAgId": "RLC",
+    "coinCapId": "rlc",
+    "coinGeckoId": "iexec-rlc",
+    "cryptoCurrencyIconName": "rlc"
   },
   "230e424b-6ecc-51ad-82d6-811674d20b4f": {
     "coinCapId": "roulettetoken",
@@ -3709,7 +3720,10 @@
   },
   "36a94c95-ec51-5e0f-b254-415e31d1c3a7": {
     "cryptoCompareId": "ZRX",
-    "dexAgId": "ZRX"
+    "dexAgId": "ZRX",
+    "coinGeckoId": "0x",
+    "coinCapId": "0x",
+    "cryptoCurrencyIconName": "zrx"
   },
   "054843cc-b3b7-5724-8ca6-bc4bbb5f52bc": {
     "cryptoCompareId": "ZXC"
@@ -3774,8 +3788,10 @@
   },
   "778541d2-65e6-5c57-b083-aa3129eb91c8": {
     "coinCapId": "bancor",
+    "coinGeckoId": "bancor",
     "cryptoCompareId": "BNT",
-    "dexAgId": "BNT"
+    "dexAgId": "BNT",
+    "cryptoCurrencyIconName": "bnt"
   },
   "3e2b3e48-d0f2-520c-9639-622e0bd15fab": {
     "coinCapId": "bounty0x",
@@ -4023,8 +4039,11 @@
     "dexAgId": "SPANK"
   },
   "6c67c161-9c44-5ba7-85ec-7d91ac2c5e80": {
+    "coinCapId": "storj",
     "cryptoCompareId": "STORJ",
-    "dexAgId": "STORJ"
+    "coinGeckoId": "storj",
+    "dexAgId": "STORJ",
+    "cryptoCurrencyIconName": "storj"
   },
   "933d3751-169e-579c-a310-e649a8382317": {
     "cryptoCompareId": "NUSD",
@@ -4038,6 +4057,7 @@
     "coinCapId": "tokencard",
     "cryptoCompareId": "TKN",
     "cryptoCurrencyIconName": "tkn",
+    "coinGeckoId": "tokencard",
     "dexAgId": "TKN"
   },
   "685f1c7f-2d31-56c2-ae80-9cd433aeb0e1": {
