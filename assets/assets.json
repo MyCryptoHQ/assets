@@ -2830,8 +2830,8 @@
   },
   "53306efd-fb16-5e9a-b6d0-fc0e9713da40": {
     "coinCapId": "dai",
-    "coinGeckoId": "dai",
-    "cryptoCompareId": "DAI",
+    "coinGeckoId": "sai",
+    "cryptoCompareId": "SAI",
     "dexAgId": "SAI"
   },
   "2fdbfe5d-5e3a-5fe0-bcaa-42810867d1e6": {
@@ -3729,7 +3729,9 @@
     "cryptoCompareId": "ZXC"
   },
   "e1f698bf-cb85-5405-b563-14774af14bf1": {
-    "cryptoCompareId": "MCD",
+    "coinCapId": "dai",
+    "cryptoCompareId": "DAI",
+    "coinGeckoId": "dai",
     "dexAgId": "DAI"
   },
   "10b38465-640c-509a-b047-8d9671a245ae": {
