@@ -2832,7 +2832,8 @@
     "coinCapId": "dai",
     "coinGeckoId": "sai",
     "cryptoCompareId": "SAI",
-    "dexAgId": "SAI"
+    "dexAgId": "SAI",
+    "cryptoCurrencyIconName": "dai"
   },
   "2fdbfe5d-5e3a-5fe0-bcaa-42810867d1e6": {
     "cryptoCompareId": "SALT",
@@ -3732,7 +3733,8 @@
     "coinCapId": "dai",
     "cryptoCompareId": "DAI",
     "coinGeckoId": "dai",
-    "dexAgId": "DAI"
+    "dexAgId": "DAI",
+    "cryptoCurrencyIconName": "dai"
   },
   "10b38465-640c-509a-b047-8d9671a245ae": {
     "coinGeckoId": "vechain-old-erc20"
