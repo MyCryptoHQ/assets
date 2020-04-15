@@ -4181,5 +4181,9 @@
   },
   "6ca25299-4711-5320-b6f2-6da9c12235c1": {
     "cryptoCompareId": "VALOR"
+  },
+  "19c48978-796d-55c6-a0e2-9999d1592728": {
+    "coinGeckoId": "seth",
+    "dexAgId": "SETH"
   }
 }
