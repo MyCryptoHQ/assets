@@ -620,8 +620,13 @@
     "cryptoCompareId": "CCT"
   },
   "350c0d6f-a0eb-504e-9a8c-43a4d5966fc3": {
-    "coinGeckoId": "cdai",
+    "coinGeckoId": "compound-sai",
     "cryptoCompareId": "CSAI",
+    "dexAgId": "CSAI"
+  },
+  "a9cc6884-14bd-53b6-abcd-f9b56b60463d": {
+    "coinGeckoId": "cdai",
+    "cryptoCompareId": "CDAI",
     "dexAgId": "CDAI"
   },
   "6f1d1ba4-8122-5248-aa0d-2c28d8e42fad": {
