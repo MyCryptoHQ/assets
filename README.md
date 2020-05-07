@@ -31,7 +31,7 @@ The `assets.json` file found in `assets/` consists of a `key -> value` object, w
 
 Any of these fields can be `undefined`, in which case no matching asset was found.
 
-The UUID is generated based on [RFC-4122](https://tools.ietf.org/html/rfc4122#section-4.3) name-based UUIDs (v5). For tokens, a combination of the chain ID and token contract is used (`${chainId}-${contractAddress}`). For other assets, only the chain ID is used.
+The UUID is generated based on [RFC-4122](https://tools.ietf.org/html/rfc4122#section-4.3) name-based UUIDs (v5). For tokens, a combination of the chain ID and token contract is used (i.e -> \``${chainId}-${contractAddress}`\` for erc20 tokens or \``${chainId}`\` for eth/other "base" assets). For other assets, only the chain ID is used.
 
 ### Supported assets
 
