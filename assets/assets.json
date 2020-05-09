@@ -1173,6 +1173,8 @@
     "cryptoCompareId": "ENGT"
   },
   "ebc2c6b4-0e52-5a81-8255-4a0671cbccaa": {
+    "coinCapId": "enjin-coin",
+    "coinGeckoId": "enjin-coin",
     "cryptoCompareId": "ENJ",
     "dexAgId": "ENJ"
   },
@@ -2990,6 +2992,8 @@
     "cryptoCompareId": "SNOV"
   },
   "51c80f7c-3a5f-5f21-9347-16380856e145": {
+    "coinCapId": "status",
+    "coinGeckoId": "status",
     "cryptoCompareId": "SNT",
     "dexAgId": "SNT"
   },
