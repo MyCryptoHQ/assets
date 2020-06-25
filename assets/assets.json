@@ -4430,5 +4430,11 @@
   },
   "c1d86494-6048-5cb9-8e1c-3b65892fb240": {
     "coinGeckoId": "cryptobuyer-token"
+  },
+  "c9a85d0b-5f75-5fd7-9cd2-b94ba5caceef": {
+    "coinGeckoId": "compound"
+  },
+  "e02a1b4e-ab8b-5894-a49e-a36b74bd99ab": {
+    "coinGeckoId": "balancer"
   }
 }
