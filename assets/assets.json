@@ -4438,7 +4438,7 @@
     "coinGeckoId": "balancer"
   },
   "1c77b322-a88c-57cc-b956-78c2bc17c360": {
-    "coinGeckoId": "aave",
+    "coinGeckoId": "aave-lend",
     "dexAgId": "LEND"
   }
 }
