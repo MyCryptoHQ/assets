@@ -4436,5 +4436,9 @@
   },
   "e02a1b4e-ab8b-5894-a49e-a36b74bd99ab": {
     "coinGeckoId": "balancer"
+  },
+  "1c77b322-a88c-57cc-b956-78c2bc17c360": {
+    "coinGeckoId": "aave",
+    "dexAgId": "LEND"
   }
 }
