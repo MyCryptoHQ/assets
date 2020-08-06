@@ -4440,5 +4440,9 @@
   "1c77b322-a88c-57cc-b956-78c2bc17c360": {
     "coinGeckoId": "aave-lend",
     "dexAgId": "LEND"
+  },
+  "3dcbc269-fa47-5707-b180-4cb0ba6e5cdf": {
+    "coinGeckoId": "augur",
+    "cryptoCurrencyIconName": "rep",
   }
 }
