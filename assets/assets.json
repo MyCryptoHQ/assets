@@ -4444,5 +4444,8 @@
   "3dcbc269-fa47-5707-b180-4cb0ba6e5cdf": {
     "coinGeckoId": "augur",
     "cryptoCurrencyIconName": "rep"
+  },
+  "25c88136-cf18-59ed-9599-ea1fac2ecdb0": {
+    "coinGeckoId": "matic-network"
   }
 }
