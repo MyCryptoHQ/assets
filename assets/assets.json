@@ -4444,5 +4444,23 @@
   "3dcbc269-fa47-5707-b180-4cb0ba6e5cdf": {
     "coinGeckoId": "augur",
     "cryptoCurrencyIconName": "rep"
+  },
+  "25c88136-cf18-59ed-9599-ea1fac2ecdb0": {
+    "coinGeckoId": "matic-network"
+  },
+  "fb0cacf6-eae8-5901-96b9-8a5782e4b7b7": {
+    "coinGeckoId": "yam"
+  },
+  "988add8d-eb6d-5bce-be28-fe73c3af72ed": {
+    "coinGeckoId": "yearn-finance"
+  },
+  "d7010b42-4c73-5677-8b82-36fc279aec6e": {
+    "coinGeckoId": "curve-dao-token"
+  },
+  "adc277ec-f0df-52b1-9f40-2c1c58cd0658": {
+    "coinGeckoId": "curve-fi-ydai-yusdc-yusdt-ytusd"
+  },
+  "cc22bab8-22fd-59c8-9868-bb6b74401d51": {
+    "coinGeckoId": "renbtc"
   }
 }
