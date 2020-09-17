@@ -4462,5 +4462,11 @@
   },
   "cc22bab8-22fd-59c8-9868-bb6b74401d51": {
     "coinGeckoId": "renbtc"
+  },
+  "c737fec0-a9e9-5841-b4c8-64d48731eb1c": {
+    "coinGeckoId": "uniswap"
+  },
+  "42362ed0-333d-5123-ae7d-29b79178769d": {
+    "coinGeckoId": "pickle-finance"    
   }
 }
