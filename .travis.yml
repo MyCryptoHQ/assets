@@ -24,6 +24,7 @@ script:
   - yarn run codecov -f coverage/*.json
   - yarn run lint
   - yarn run prettier
+  - yarn run validate
 
 before_deploy:
   - pip install --user awscli
