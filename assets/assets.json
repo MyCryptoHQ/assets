@@ -1453,7 +1453,7 @@
     "cryptoCompareId": "GAM"
     },
   "739e8ac5-0db5-57b9-a8c1-5555214c1db0": {
-    "coinGeckoId": "gamecredits",
+    "coinGeckoId": "gamecredits"
   },
   "d8d1dda3-22f3-5dbb-8330-18c2d74d9ad7": {
     "coinGeckoId": "gana",
@@ -4439,10 +4439,6 @@
   },
   "e02a1b4e-ab8b-5894-a49e-a36b74bd99ab": {
     "coinGeckoId": "balancer"
-  },
-  "1c77b322-a88c-57cc-b956-78c2bc17c360": {
-    "coinGeckoId": "aave-lend",
-    "dexAgId": "LEND"
   },
   "3dcbc269-fa47-5707-b180-4cb0ba6e5cdf": {
     "coinGeckoId": "augur",
