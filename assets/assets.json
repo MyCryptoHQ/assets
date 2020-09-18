@@ -1451,6 +1451,9 @@
     "coinCapId": "gambit",
     "coinGeckoId": "gambit",
     "cryptoCompareId": "GAM"
+    },
+  "739e8ac5-0db5-57b9-a8c1-5555214c1db0": {
+    "coinGeckoId": "gamecredits",
   },
   "d8d1dda3-22f3-5dbb-8330-18c2d74d9ad7": {
     "coinGeckoId": "gana",
@@ -4468,5 +4471,23 @@
   },
   "42362ed0-333d-5123-ae7d-29b79178769d": {
     "coinGeckoId": "pickle-finance"    
+  },
+  "dd6b815e-f089-583a-8ebc-8d8469f0e0d3": {
+    "coinGeckoId": "yam-v2"
+  },
+  "52f6407e-e3de-50f6-a26a-23702e0efc16": {
+    "coinGeckoId": "sushi"
+  },
+  "e203c06c-15a6-5931-bf78-6b123aeb1b0a": {
+    "coinGeckoId": "based-money"
+  },
+  "988add8d-eb6d-5bce-be28-fe73c3af72ed": {
+    "coinGeckoId": "yearn-finance" 
+  },
+  "c8cf23a0-8651-5579-984f-f41666c46b4e": {
+    "coinGeckoId": "dfi-money"
+  },
+  "ddb87dcb-335a-5ba3-9dce-4c3f00cadbab": {
+    "coinGeckoId": "yfvalue"    
   }
 }
