@@ -8,11 +8,11 @@
     "strict": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "outDir": "lib",
-    "rootDir": "src"
+    "outDir": "lib"
   },
   "include": [
-    "src"
+    "src",
+    "scripts"
   ],
   "exclude": [
     "node_modules"
