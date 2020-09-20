@@ -4484,6 +4484,9 @@
     "coinGeckoId": "dfi-money"
   },
   "ddb87dcb-335a-5ba3-9dce-4c3f00cadbab": {
-    "coinGeckoId": "yfvalue"    
+    "coinGeckoId": "yfvalue"
+  },
+  "cf2c7fc7-dcf8-5cb5-9c91-3f31ba25016b": {
+    "coinGeckoId": "degenerator"     
   }
 }
