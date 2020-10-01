@@ -4485,5 +4485,8 @@
   },
   "ddb87dcb-335a-5ba3-9dce-4c3f00cadbab": {
     "coinGeckoId": "yfvalue"    
+  },
+  "bcc71596-ea9d-5a90-add0-14e1717f22a1": {
+    "coinGeckoId": "bidao" 
   }
 }
