@@ -14,7 +14,8 @@
     "prettier": "prettier --write --config ./.prettierrc --list-different './**/*.ts'",
     "lint": "yarn run lint:ts && yarn run lint:tslint",
     "lint:ts": "tsc --noEmit",
-    "lint:tslint": "tslint --project ."
+    "lint:tslint": "tslint --project .",
+    "validate": "ts-node scripts/validate-json.ts"
   },
   "dependencies": {
     "@hapi/joi": "^16.1.7",
