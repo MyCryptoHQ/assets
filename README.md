@@ -12,15 +12,15 @@ The `assets.json` file found in `assets/` consists of a `key -> value` object, w
 * `coinCapId` (string)
 
   The `id` field used in the CoinCap API.
-  
+
 * `coinGeckoId` (string)
 
   The `id` field used in the CoinGecko API.
 
 * `cryptoCompareId` (string)
-  
+
   The `Symbol` field used in the CryptoCompare API.
-  
+
 * `cryptoCurrencyIconName` (string)
 
   The name of the icon in the CryptoCurrency Icon library.
@@ -50,3 +50,11 @@ $ yarn build
 ```
 
 And commit the new file to GitHub. The new file is automatically deployed.
+
+### Get UUID of a token
+
+You can use the `token-uuid` script to get the UUID of a token:
+
+```
+$ yarn token-uuid <contractAddress> <chainId>
+```

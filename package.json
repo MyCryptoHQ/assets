@@ -15,7 +15,8 @@
     "lint": "yarn run lint:ts && yarn run lint:tslint",
     "lint:ts": "tsc --noEmit",
     "lint:tslint": "tslint --project .",
-    "validate": "ts-node scripts/validate-json.ts"
+    "validate": "ts-node scripts/validate-json.ts",
+    "token-uuid": "ts-node scripts/token-uuid.ts"
   },
   "dependencies": {
     "@hapi/joi": "^16.1.7",
@@ -43,7 +44,8 @@
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-microsoft-contrib": "^6.2.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "uuid-by-string": "https://github.com/MyCryptoHQ/uuid-by-string.git"
   },
   "lint-staged": {
     "*.ts": [
