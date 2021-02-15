@@ -994,6 +994,10 @@
     "coinGeckoId": "dmarket",
     "cryptoCompareId": "DMT"
   },
+  "cf886c55-0450-5760-8357-ac76aecc4cb5": {
+    "coinCapId": "encrypgen",
+    "coinGeckoId": "encrypgen"
+  },
   "397d61ca-7e78-5863-95b2-d11e3f407629": {
     "coinCapId": "district0x",
     "coinGeckoId": "district0x",
