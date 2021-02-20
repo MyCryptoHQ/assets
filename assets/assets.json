@@ -1276,6 +1276,8 @@
     "cryptoCompareId": "EVN"
   },
   "ddec8a8f-d456-5d36-8ac1-fe616c841b13": {
+    "coinCapId": "everex",
+    "coinGeckoId": "everex",
     "cryptoCompareId": "EVX"
   },
   "410d4101-22ea-5b64-b99b-ef2f405beef6": {
