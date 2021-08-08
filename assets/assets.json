@@ -4487,5 +4487,9 @@
   },
   "bcc71596-ea9d-5a90-add0-14e1717f22a1": {
     "coinGeckoId": "bidao" 
+  },
+  "fa283927-a9a5-530c-b2ef-d6d98268d10c": {
+    "coinGeckoId": "governor-dao",
+    "cryptoCurrencyIconName": "gdao",
   }
 }
