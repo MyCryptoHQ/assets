@@ -23,7 +23,7 @@
     "cryptocurrency-icons": "0.13.0",
     "execa": "^3.3.0",
     "listr": "^0.14.3",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "parse-eth-tokens": "^0.3.0",
     "string-similarity": "^3.0.0"
   },
